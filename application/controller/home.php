@@ -39,7 +39,6 @@ class Home extends Controller{
         }
         if (preg_match("/^[a-zA-Z ]*$/",$name)) {
             if(filter_var($correo, FILTER_VALIDATE_EMAIL)){
-                echo $name." ".$correo;
                 require_once 'application/libs/PHPMailer_5.2.4/class.phpmailer.php';
                 $mail = new PHPMailer();
                 $body = '<body style="margin: 10px;">
