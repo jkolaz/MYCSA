@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="<?=URL?>public/img/x-icon">
     <meta name="description" content="">
     <meta name="author" content="">
     
@@ -11,11 +12,9 @@
     <title>MyC SA | Inicio </title>
 
     <!-- Bootstrap core CSS -->
-
-
     <link href="<?=URL?>public/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=URL?>public/css/css.css" rel="stylesheet">
- <link href="<?=URL?>public/css/carousel.css" rel="stylesheet">
+    <link href="<?=URL?>public/css/carousel.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="<?=URL?>public/css/dashboard.css" rel="stylesheet">
 
@@ -59,7 +58,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <img src="img/logo2.png"> 
+              <img src="<?=URL?>public/img/logo2.png"> 
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right"> 
@@ -67,7 +66,7 @@
             <li class="active"><a href="<?=URL?>home/index" style="font-size: 120%; color:white;"><span style="margin-right: 5px;" class="glyphicon glyphicon-home"></span> Inicio</a></li>
             <li><a href="<?=URL?>home/nosotros" style="color:#a21c27; font-size: 120%;"><span style="margin-right: 0px;" class="glyphicon glyphicon-globe"></span> ¿Quíenes somos?</a></li>
             <li><a href="<?=URL?>home/productos" style="color:#a21c27;font-size: 120%;"><span style="margin-right: 5px;" class="glyphicon glyphicon-shopping-cart"></span>Productos</a></li>
-            <li><a href="<?=URL?>home/clientes" style="color:#a21c27; font-size: 120%;"><span style="margin-right: 5px;" class="glyphicon glyphicon-eye-open"></span>Nuestras Marcas</a></li>
+            <li><a href="<?=URL?>home/marcas" style="color:#a21c27; font-size: 120%;"><span style="margin-right: 5px;" class="glyphicon glyphicon-eye-open"></span>Nuestras Marcas</a></li>
              <li><a data-toggle="modal" data-target="#suma" style="color:#a21c27; font-size: 120%; cursor:pointer;"><span style="margin-right: 5px;" class="glyphicon glyphicon-envelope"></span>Contactenos</a></li>
           </ul>
             </div>
@@ -89,7 +88,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/BANNER 1.jpg" alt="First slide">
+          <img src="<?=URL?>public/img/BANNER1.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
              
@@ -97,7 +96,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="img/BANNER2.jpg" alt="Second slide">
+          <img src="<?=URL?>public/img/BANNER2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               
@@ -105,7 +104,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="img/BANNER3.png" alt="Third slide">
+          <img src="<?=URL?>public/img/BANNER3.png" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
              
@@ -132,8 +131,7 @@
 
   <h3 class="center1">Novedades</h3>
 <div class="nove">
-<div class="fb-like-box" data-href="https://www.facebook.com/pages/Minas-y-Concentradoras-SA/787169254666876?fref=ts" data-width="250" data-height="250" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
-</div>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FMinas-y-Concentradoras-SA%2F725099354232338%3Ffref%3Dts&amp;width=250&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:590px;" allowTransparency="true"></iframe></div>
 <hr>		
 
 <!-- www.cssplantillas.es.tl -->
@@ -173,7 +171,7 @@
 </br>
 <img class="img-rounded" src="<?=URL?>public/img/tamices.jpg"  alt="logo cliente">
 <p>Tamices</p>
-<a href="productos.html"><button class="btn btn-success">Linea Advantech</button></a>
+<a href="<?=URL?>home/productos"><button class="btn btn-success">Linea Advantech</button></a>
  </br>
  </br>
 </div>
@@ -181,7 +179,7 @@
 </br>
 <img class="img-rounded" src="<?=URL?>public/img/duratap.jpg"  alt="logo cliente">
 <p>Agitador de Tamices</p>
-<a href="productos.html"><button class="btn btn-success">Linea Advantech</button></a>
+<a href="<?=URL?>home/productos"><button class="btn btn-success">Linea Advantech</button></a>
  </br>
  </br>
 </div>
@@ -191,7 +189,7 @@
 </br>
 <img class="img-rounded" src="<?=URL?>public/img/fajas.jpg"   alt="logo cliente">
 <p>Fajas Automotrices</p>
-<a href="productos.html"><button class="btn btn-danger">Linea Bando</button></a>
+<a href="<?=URL?>public/productos"><button class="btn btn-danger">Linea Bando</button></a>
  </br>
  </br>
 </div>
@@ -199,7 +197,7 @@
 </br>
 <img class="img-rounded" src="<?=URL?>public/img/chancadora.jpg"   alt="logo cliente">
 <p>Chancadora</p>
-<a href="productos.html"><button class="btn btn-info">Linea RockLabs</button></a>
+<a href="<?=URL?>home/productos"><button class="btn btn-info">Linea RockLabs</button></a>
  </br>
  </br>
 </div>
@@ -207,7 +205,7 @@
 </br>
 <img class="img-rounded" src="<?=URL?>public/img/material.jpg"   alt="logo cliente">
 <p>Material referencial</p>
-<a href="productos.html"><button class="btn btn-warning">Linea Ore</button></a>
+<a href="<?=URL?>home/productos"><button class="btn btn-warning">Linea Ore</button></a>
  </br>
  </br>
 </div>
@@ -257,7 +255,7 @@
 
   </div>
 
-  <a href="productos.html"> <span class="glyphicon glyphicon-ok"></span> ver más </a>
+  <a href="<?=URL?>home/productos"> <span class="glyphicon glyphicon-ok"></span> ver más </a>
 </div>
 
 </br>
@@ -280,7 +278,7 @@
 
 <div class="col-md-4">
 </br>
-<img class="img-rounded" src="<?=URL?>public/img/jefatura.jpg">
+<img class="img-rounded" src="<?=URL?>public/img/equipo.jpg">
 
 </div>
 <div class="col-md-8">
@@ -342,7 +340,7 @@ minería e industria en general.
 </div>
 <div class="col-md-3 ubigeo">
 
-  <h4>Nuestros Clientes <a href="clientes.html" style="float: right"> <span class="glyphicon glyphicon-ok"></span> ver más </a></h4>
+  <h4>Nuestros Clientes <a href="<?=URL?>home/clientes" style="float: right"> <span class="glyphicon glyphicon-ok"></span> ver más </a></h4>
 
 
   <div class="container" style="background: white; width: 250px; padding: 0px; height: 200px; ">
@@ -400,7 +398,7 @@ minería e industria en general.
   <li class="list-group-item list-group-item-success"><span class="glyphicon glyphicon-search"></span> Localización: Dirección Lima Av. Canaval y Moreyra 609 - Oficina A. San Isidro
 
 .</li>
-  <li style="text-align: left;" class="list-group-item list-group-item-info"> <span class="glyphicon glyphicon-envelope"></span> Contactenos a : eduardo@minasyconcentradoras.com </li>
+  <li style="text-align: left;" class="list-group-item list-group-item-info"> <span class="glyphicon glyphicon-envelope"></span> Contactenos a : mycsa@minasyconcentradoras.com </li>
   <li class="list-group-item list-group-item-warning"> <span class="glyphicon glyphicon-warning-sign"></span> FAX (51-1) 224-2822
 . </li>
   <li class="list-group-item list-group-item-danger"> <span class="glyphicon glyphicon-earphone"></span> Telefono: (51-1) 512-1400</li>
@@ -440,7 +438,7 @@ minería e industria en general.
   <li class="list-group-item list-group-item-success"><span class="glyphicon glyphicon-search"></span> Localización: Dirección Lima Av. Canaval y Moreyra 609 - Oficina A. San Isidro
 
 .</li>
-  <li style="text-align: left;" class="list-group-item list-group-item-info"> <span class="glyphicon glyphicon-envelope"></span> Contactenos a : eduardo@minasyconcentradoras.com </li>
+  <li style="text-align: left;" class="list-group-item list-group-item-info"> <span class="glyphicon glyphicon-envelope"></span> Contactenos a : mycsa@minasyconcentradoras.com </li>
   <li class="list-group-item list-group-item-warning"> <span class="glyphicon glyphicon-warning-sign"></span> FAX (51-1) 224-2822
 . </li>
   <li class="list-group-item list-group-item-danger"> <span class="glyphicon glyphicon-earphone"></span> Telefono: (51-1) 512-1400</li>
@@ -450,35 +448,35 @@ minería e industria en general.
 	</div>
 	<div class="col-md-6">
 
-	<form action="<?=URL?>home/enviar_email" method="post">
+            <form action="<?=URL?>home/enviar_email" method="post">
        	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                <input type="text" name="name" id="name" class="form-control" placeholder="Nombre y Apellido...">
+  		<input type="text" name="name" id="name" class="form-control" placeholder="Nombre y Apellido...">
 	</div>
 	</br>
 	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-shopping-cart"></span></span>
-                <input type="text" name="empresa" id="empresa" class="form-control" placeholder="Empresa...">
+  		<input type="text" name="empresa" id="empresa" class="form-control" placeholder="Empresa...">
 	</div>
 	</br>
 	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-ok"></span></span>
-                <input type="text" name="cargo" id="cargo" class="form-control" placeholder="Cargo...">
+  		<input type="text" name="cargo" id="cargo" class="form-control" placeholder="Cargo...">
 	</div>
 	</br>
 	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-earphone"></span></span>
-                <input type="text" name="telefono" id="telefono" class="form-control" placeholder="Teléfono...">
+  		<input type="text" name="telefono" id="telefono" class="form-control" placeholder="Teléfono...">
 	</div>
 </br>
 	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-                <input type="text" name="correo" id="correo" class="form-control" placeholder="Email...">
+  		<input type="text" name="correo" id="correo" class="form-control" placeholder="Email...">
 	</div>
 </br>
 	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-fire"></span></span>
-                <textarea class="form-control" name="mensaje" id="mensaje" rows="8" placeholder="Déjanos un comentario..."></textarea>
+  		<textarea class="form-control" name="mensaje" id="mensaje" rows="8" placeholder="Déjanos un comentario..."></textarea>
 	</div>
 	</div>
 	</div>
@@ -492,12 +490,6 @@ minería e industria en general.
     </div>
   </div>
 </div>
-
-
-
-
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
