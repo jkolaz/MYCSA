@@ -163,7 +163,7 @@
 </br>
 <img class="img-rounded" src="<?=URL?>public/img/balanza.jpg"  alt="logo cliente">
 <p>Balanza Marcy</p>
-<a href="productos.html"><button class="btn btn-primary">Linea Gildeon</button></a>
+<a href="<?=URL?>home/productos"><button class="btn btn-primary">Linea Gildeon</button></a>
  </br>
  </br>
 </div>
@@ -290,7 +290,7 @@ Estamos a su disposición para lo que
 necesite brindándoles la mejor opción
 de nuestras líneas de productos.
 </br>
-<a href="nosotros.html"><button class="btn btn-primary">¿Más información?</button></a>
+<a href="<?=URL?>home/nosotros"><button class="btn btn-primary">¿Más información?</button></a>
 
 </div>
 </div>
@@ -415,7 +415,7 @@ minería e industria en general.
         <p class="pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></p>
 
       	
-        <p>&copy; 2014 minas y concentradoras SA &middot; <a href="index.html">Derechos Reservados</a> &middot; <a href="https://www.facebook.com/frank.izrael.delarosa">Free Lance wamp</a></p>
+        <p>&copy; 2014 minas y concentradoras SA &middot; <a href="<?=URL?>public/index">Derechos Reservados</a> &middot; <a href="https://www.facebook.com/frank.izrael.delarosa">Free Lance wamp</a></p>
       </footer>
 
 
