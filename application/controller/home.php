@@ -66,7 +66,7 @@ class Home extends Controller{
                 $mail->Password      = "info10557788177428";        // SMTP account password
                 $mail->From = "info@jkolaz.com";
                 $mail->FromName = CORREO_SUBJECT."consultas";
-                //$mail->AddAddress("minasyconcentradoras@gmail.com");
+                //$mail->AddAddress("ventas.minasyconcentradoras@gmail.com");
                 $mail->AddAddress("j.salsavilca@gmail.com");
                 $mail->WordWrap = 50;
                 $mail->IsHTML(true);
