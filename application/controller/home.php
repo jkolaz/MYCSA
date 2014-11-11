@@ -3,7 +3,7 @@ class Home extends Controller{
     public function index(){
         require 'application/views/index.php';
     }
-    public function cliente(){
+    public function clientes(){
         require 'application/views/cliente.php';
     }
     public function nosotros(){
@@ -11,6 +11,9 @@ class Home extends Controller{
     }
     public function productos(){
         require 'application/views/producto.php';
+    }
+    public function marcas(){
+        require 'application/views/marcas.php';
     }
     public function enviar_email(){
         $name = test_input($_POST["name"]);
@@ -64,7 +67,7 @@ class Home extends Controller{
                 $mail->Password      = "info10557788177428";        // SMTP account password
                 $mail->From = "info@jkolaz.com";
                 $mail->FromName = CORREO_SUBJECT."consultas";
-                $mail->AddAddress("minasyconcentradoras@gmail.com");
+                //$mail->AddAddress("minasyconcentradoras@gmail.com");
                 $mail->AddAddress("j.salsavilca@gmail.com");
                 $mail->WordWrap = 50;
                 $mail->IsHTML(true);
