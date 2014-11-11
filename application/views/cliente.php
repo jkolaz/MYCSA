@@ -45,7 +45,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <img src="img/logo2.png"> 
+              <img src="<?=URL?>public/img/logo2.png"> 
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right"> 

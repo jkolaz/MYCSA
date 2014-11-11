@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
         
-<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="<?=URL?>public/img/favicon.ico" type="image/x-icon">
 
     <title>MyC SA | Marcas </title>
 

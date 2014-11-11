@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<link rel="icon" href="<?=URL?>public/img/favicon.ico" type="image/x-icon">
     <meta name="description" content="">
     <meta name="author" content="">
     
@@ -37,14 +39,7 @@
   </head>
 
 <body>
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 
 <div class="navbar-wrapper">
       <div class="container">
@@ -66,7 +61,7 @@
             <li ><a href="<?=URL?>home/index" style="font-size: 120%; color:#a21c27;"><span style="margin-right: 5px;" class="glyphicon glyphicon-home"></span> Inicio</a></li>
             <li class="active"><a href="<?=URL?>home/nosotros" style="color:white; font-size: 120%;"><span style="margin-right: 0px;" class="glyphicon glyphicon-globe"></span> ¿Quíenes somos?</a></li>
             <li><a href="<?=URL?>home/productos" style="color:#a21c27;font-size: 120%;"><span style="margin-right: 5px;" class="glyphicon glyphicon-shopping-cart"></span>Productos</a></li>
-            <li><a href="<?=URL?>home/clientes" style="color:#a21c27; font-size: 120%;"><span style="margin-right: 5px;" class="glyphicon glyphicon-eye-open"></span>Nuestras Marcas</a></li>
+            <li><a href="<?=URL?>home/marcas" style="color:#a21c27; font-size: 120%;"><span style="margin-right: 5px;" class="glyphicon glyphicon-eye-open"></span>Nuestras Marcas</a></li>
              <li><a data-toggle="modal" data-target="#suma" style="color:#a21c27; font-size: 120%; cursor:pointer;"><span style="margin-right: 5px;" class="glyphicon glyphicon-envelope"></span>Contactenos</a></li>
           </ul>
             </div>
@@ -88,7 +83,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="<?=URL?>public/img/BANNER 1.jpg" alt="First slide">
+          <img src="<?=URL?>public/img/BANNER1.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
              
@@ -128,7 +123,7 @@
 
   <h3 class="center1">Novedades</h3>
 <div class="nove">
-<div class="fb-like-box" data-href="https://www.facebook.com/pages/Minas-y-Concentradoras-SA/787169254666876?fref=ts" data-width="250" data-height="250" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FMinas-y-Concentradoras-SA%2F725099354232338%3Ffref%3Dts&amp;width=250&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:590px;" allowTransparency="true"></iframe>
 </div>
 <hr>		
 
@@ -323,8 +318,8 @@ Organizados con la finalidad de brindar soluciones integrales que generen valor 
     </div>      
 <div class="col-md-6">
 	<ol>
-		<li>Satisfacción al cliente </li>
-<li>Calidad asistencial  </li>
+            <li>Satisfacción al cliente </li>
+            <li>Calidad asistencial  </li>
 <li>Compromiso  </li>
 <li>Mejora continua </li>
 	</ol>  
@@ -364,7 +359,7 @@ Organizados con la finalidad de brindar soluciones integrales que generen valor 
         <p class="pull-right"><a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a></p>
 
       	
-        <p>&copy; 2014 minas y concentradoras SA &middot; <a href="index.html">Derechos Reservados</a> &middot; <a href="https://www.facebook.com/frank.izrael.delarosa">Free Lance wamp</a></p>
+        <p>&copy; 2014 minas y concentradoras SA &middot; <a href="<?=URL?>home/index">Derechos Reservados</a> &middot; <a href="https://www.facebook.com/frank.izrael.delarosa">Free Lance wamp</a></p>
       </footer>
 
 
@@ -386,7 +381,7 @@ Organizados con la finalidad de brindar soluciones integrales que generen valor 
   <li class="list-group-item list-group-item-success"><span class="glyphicon glyphicon-search"></span> Localización: Dirección Lima Av. Canaval y Moreyra 609 - Oficina A. San Isidro
 
 .</li>
-  <li style="text-align: left;" class="list-group-item list-group-item-info"> <span class="glyphicon glyphicon-envelope"></span> Contactenos a : eduardo@minasyconcentradoras.com </li>
+  <li style="text-align: left;" class="list-group-item list-group-item-info"> <span class="glyphicon glyphicon-envelope"></span> Contactenos a : mycsa@minasyconcentradoras.com </li>
   <li class="list-group-item list-group-item-warning"> <span class="glyphicon glyphicon-warning-sign"></span> FAX (51-1) 224-2822
 . </li>
   <li class="list-group-item list-group-item-danger"> <span class="glyphicon glyphicon-earphone"></span> Telefono: (51-1) 512-1400</li>
@@ -396,47 +391,45 @@ Organizados con la finalidad de brindar soluciones integrales que generen valor 
 	</div>
 	<div class="col-md-6">
 
-            <form action="<?=URL?>home/enviar_email" method="post">
+	<form  action="<?=URL?>home/enviar_email" method="post">
        	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                <input type="text" name="name" id="name" class="form-control" placeholder="Nombre y Apellido...">
+  		<input type="text" name="name" id="name" class="form-control" placeholder="Nombre y Apellido...">
 	</div>
 	</br>
 	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-shopping-cart"></span></span>
-                <input type="text" name="empresa" id="empresa" class="form-control" placeholder="Empresa...">
+  		<input type="text" name="empresa" id="empresa" class="form-control" placeholder="Empresa...">
 	</div>
 	</br>
 	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-ok"></span></span>
-                <input type="text" name="cargo" id="cargo" class="form-control" placeholder="Cargo...">
+  		<input type="text" name="cargo" id="cargo" class="form-control" placeholder="Cargo...">
 	</div>
 	</br>
 	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-earphone"></span></span>
-                <input type="text" name="telefono" id="telefono" class="form-control" placeholder="Teléfono...">
+  		<input type="text" name="telefono" id="telefono" class="form-control" placeholder="Teléfono...">
 	</div>
 </br>
 	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-                <input type="text" name="correo" id="correo" class="form-control" placeholder="Email...">
+  		<input type="text" name="correo" id="correo" class="form-control" placeholder="Email...">
 	</div>
 </br>
 	<div class="input-group">
   		<span class="input-group-addon"><span class="glyphicon glyphicon-fire"></span></span>
-                <textarea class="form-control" name="mensaje" id="mensaje" rows="8" placeholder="Déjanos un comentario..."></textarea>
+  		<textarea class="form-control" name="mensaje" id="mensaje" rows="8" placeholder="Déjanos un comentario..."></textarea>
 	</div>
 	</div>
 	</div>
       </div>
       <div class="modal-footer cabeza">
 	<input type="submit" class="btn btn-danger" value="Consultar Ahora">
-	
+	</form>
         <button type="button" class="btn btn-default" data-dismiss="modal">Cierra</button>
-        </div>
-        </form>
    </br>
-      
+      </div>
     </div>
   </div>
 </div>
