@@ -119,7 +119,7 @@
 </br>
 <div class="col-md-3">
 
-<img class="img-rounded" src="<?=URL?>public/img/provee/sepor.png" style="width: 96%; height: 96%; padding-top:25%;" alt="logo cliente">
+<img class="img-rounded" src="<?=URL?>public/img/provee/SEPOR.png" style="width: 96%; height: 96%; padding-top:25%;" alt="logo cliente">
 </div>
 <div class="col-md-9">
 <h1 class="letra_ubuntu"> Linea Laboratorio</h1>
