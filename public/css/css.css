@@ -1,0 +1,542 @@
+@font-face { font-family: ubuntu; src: url('Ubuntu-C.ttf'); } 
+@font-face { font-family: acid; src: url('../fonts/acid.ttf'); } 
+@font-face { font-family: ajax; src: url('../fonts/aajax.ttf'); } 
+@font-face { font-family: abbey; src: url('../fonts/abbey.ttf'); } 
+
+.letra_ubuntu{
+	font-family: "ubuntu";
+}
+
+body {
+	
+	background: #D0CCCC;
+}
+
+.header{
+  border-bottom: groove 5px #a21c27;
+  border-right: groove 3px #D0CCCC;
+  border-left: groove 3px #D0CCCC;
+  background: #F2F0F0;
+
+
+}
+
+.aux {
+	font-size: 200%;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
+}
+
+.imagen1 {
+	color: #a21c27;
+	font-size: 120%;
+	border-left: dashed 1px #B62516;
+}
+.imagen1:hover {
+	background: #a21c27;
+	color: white;
+	cursor: pointer;
+} 	
+
+.center1 {
+  text-align: center;
+  text-decoration: underline;
+	color: #a21c27;
+
+}
+
+.primero {
+	border: dashed 2px white;
+	
+	border-left: 0px;
+	border-bottom: 0px;
+}
+.segundo {
+	border: dashed 2px white;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+}
+.clientes{
+
+  overflow: hidden;
+  background:#a21c27;
+  color: white;
+}
+.clie{
+  background: #a21c27;
+}
+.nove {
+  height: 280px;
+
+  overflow: hidden;	
+
+}
+.cata {
+  border-left: solid 1px black;
+
+}
+.activando1 a{
+
+	color: #a21c27;
+	
+}
+.activando a{
+
+  color: #a21c27;
+  font-size: 120%;
+}
+
+.center {
+	font-size: 120%;
+	
+
+}
+.center a{
+color: #B62516;
+
+}
+.ubigeo {
+	background: #a21c27;
+	color: white;
+	height: 100%;
+	text-align: justify;
+	overflow: hidden;
+}
+.ubigeo2 {
+	background: #a21c27;
+	color: white;
+	height: 100%;
+	text-align: justify;
+	overflow: hidden;
+}
+.ubigeo a{
+   font-size: 60%;
+  color: white;
+  text-decoration: underline;
+}
+.titulo {
+	text-align: center; 
+	text-decoration:underline;
+
+}
+.justifica {
+	text-align: justify;
+}
+.center li{
+	border-bottom: solid 1px #F2F0F0;
+}
+.model1 {
+	border-right: dashed 2px #F2F0F0;
+}
+.cabeza {
+	background: #FEE1D9;
+}
+.cabeza1 {
+	background: #268FE5;
+	color: white;
+}
+
+.imagenes{
+	padding: 0px;
+	background-image: url("../img/atm/tamiz.jpg");
+	 transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+    background-size: 100% 100%;
+
+}
+.imagenes a{
+	text-decoration: none;
+}
+
+.imagenes3{
+	padding: 0px;
+	background-image: url("../img/gilson/balanza.jpg");
+	 transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+    background-size: 100% 100%;
+
+}
+.imagenes3 a{
+	text-decoration: none;
+}
+
+.imagenes4{
+	padding: 0px;
+	background-image: url("../img/BICO/disco.jpg");
+	 transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+    background-size: 100% 100%;
+
+}
+.imagenes4 a{
+	text-decoration: none;
+}
+.imagenes5{
+	padding: 0px;
+	background-image: url("../img/rocklabs/14.jpg");
+	 transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+    background-size: 100% 100%;
+
+}
+.imagenes5 a{
+	text-decoration: none;
+}
+
+.imagenes6{
+	padding: 0px;
+	background-image: url("../img/rocklabs/smar.png");
+	 transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+    background-size: 100% 100%;
+
+}
+.imagenes6 a{
+	text-decoration: none;
+}
+
+
+.imagenes7{
+	padding: 0px;
+	background-image: url("../img/salter/hidro2.jpg");
+	 transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+    background-size: 100% 100%;
+
+}
+.imagenes7 a{
+	text-decoration: none;
+}
+
+.imagenes8{
+	padding: 0px;
+	background-image: url("../img/SEPOR/algo.png");
+	 transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+    background-size: 100% 100%;
+
+}
+.imagenes8 a{
+	text-decoration: none;
+}
+.imagenes9{
+	padding: 0px;
+	background-image: url("../img/atm/malla.jpg");
+	 transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+    background-size: 100% 100%;
+
+}
+.imagenes9 a{
+	text-decoration: none;
+}
+.imagenes10{
+	padding: 0px;
+	background-image: url("../img/atm/malla2.png");
+	 transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+    background-size: 100% 100%;
+
+}
+.imagenes10 a{
+	text-decoration: none;
+}
+.help {
+	border-radius: 50%;
+	border: solid 1px white;
+	display: inline;
+	margin-right: 5px ;
+	padding: 5px;
+}
+
+.imagenes11{
+	padding: 0px;
+	background-image: url("../img/dun/manguera.jpg");
+	 transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+    background-size: 100% 100%;
+
+}
+.imagenes11 a{
+	text-decoration: none;
+}
+.imagenes12{
+	padding: 0px;
+	background-image: url("../img/hum/maquina.jpg");
+	 transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transition-delay: 20ms;
+    background-size: 100% 100%;
+
+}
+.imagenes12 a{
+	text-decoration: none;
+}
+.circulo{
+	margin-top: 5px;
+	background: #1FCC67;
+	border: groove 6px  #1FCC67;
+	width: 100px;
+	height: 100px;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 20px; 
+	font-size: 300%;
+
+}
+
+.circulo2{
+	margin-top: 5px;
+	background: #E6233A;
+	border: groove 6px  #E6233A;
+	width: 100px;
+	height: 100px;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 20px; 
+	font-size: 300%;
+
+}
+
+.circulo3{
+	margin-top: 5px;
+	background: #E1D65B;
+	border: groove 6px  #E1D65B;
+	width: 100px;
+	height: 100px;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 20px; 
+	font-size: 300%;
+
+}
+.circulo4{
+	margin-top: 5px;
+	background: #35B9DA;
+	border: groove 6px  #35B9DA;
+	width: 100px;
+	height: 100px;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 20px; 
+	font-size: 300%;
+
+}
+
+.tam{
+
+	font-size: 120%;
+}
+
+.aux_min1{
+	background-image:url("../frank/conta.jpg"); 
+}
+
+.aux_min2{
+	background-image:url("../frank/importaciones.jpg"); 
+}
+
+.aux_min3{
+	background-image:url("../frank/grupo.jpg"); 
+}
+.aux_min4{
+	background-image:url("../frank/finanzas.jpg"); 
+}
+.aux_min5{
+	background-image:url("../frank/comercial.jpg"); 
+	border-right: solid 10px white;
+}
+.aux_min6{
+	background-image:url("../frank/recepcion.jpg"); 
+	border-right: solid 10px white;
+}
+
+.aux22 {
+	
+	background-size: 100% 100%; 
+	padding: 0px;
+	cursor: pointer;
+}
+
+
+
+.info {
+	color: transparent;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	 transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    transition-delay: 50ms;
+	
+}
+.aux22:hover > .info{
+	color: white;
+	background: rgba(0, 9, 0, 0.6);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tbsose{list-style:none; text-decoration:none; font-size:0.9em; font-family:trebuchet ms,sans-serif;}
+#tbsose a{text-decoration:none; font-family:trebuchet ms,sans-serif;}
+#tbsose li{position:relative; height:38px; cursor:pointer; padding: 0 !important;}
+#tbsose .facebook, .googleplus, .pinterest, .rss, .twitter{position:relative; z-index:5; display:block; float:none; margin:10px 0 0; width:210px; height:38px; border-radius:5px; background:url("http://img.webme.com/pic/c/cssplantillas/logosexpandiblesrscp.png") no-repeat;  background-color:rgba(217,30,118,.42); -webkit-box-shadow:rgba(0,0,0,.28) 0 2px 3px; -moz-box-shadow:rgba(0,0,0,.28) 0 2px 3px;  box-shadow:rgba(0,0,0,.28) 0 2px 3px; color:#141414; text-align:left; text-indent:50px; text-shadow:#333 0 1px 0; white-space:nowrap;  line-height:32px; -webkit-transition:width .25s ease-in-out,background-color .25s ease-in-out; -moz-transition:width .25s ease-in-out,background-color .25s ease-in-out; -ms-transition:width .25s ease-in-out,background-color .25s ease-in-out; -o-transition:width .25s ease-in-out,background-color .25s ease-in-out; transition:width .25s ease-in-out,background-color .25s ease-in-out; -o-box-shadow:rgba(0,0,0,.28) 0 2px 3px;}
+#tbsose li:after{position:absolute; top:0; left:50px; z-index:2; display:block; height:38px; color:#141414; content:attr(data-alt);  line-height:32px;}
+#tbsose .icon{overflow:hidden; color:#fafafa;}
+#tbsose .facebook{width:32px; height:32px; background-color:rgba(59,89,152,0.42); background-position:0 0;}
+#tbsose .twitter{width:32px; height:32px; background-color:rgba(64,153,255,0.42); background-position:0 -33px;}
+#tbsose .googleplus{width:32px; height:32px; background-color:rgba(228,69,36,0.42); background-position:-3px -66px;}
+#tbsose .pinterest{width:32px; height:32px; background-color:rgba(174,45,39,0.42); background-position:0 -95px;}
+#tbsose .rss{ width:32px;  height:32px;  background-color:rgba(255,102,0,0.42); background-position:-3px -126px;}
+#tbsose li:hover .icon, 
+.touch #tbsose li .icon{width:210px;}
+.touch #tbsose li .facebook, #tbsose li:hover .facebook{background-color:rgba(59,89,152,1);}
+.touch #tbsose li .twitter, #tbsose li:hover .twitter{background-color:rgba(64,153,255,1);}
+.touch #tbsose li .googleplus, #tbsose li:hover .googleplus{background-color:rgba(228,69,36,1);}
+.touch #tbsose li .pinterest, #tbsose li:hover .pinterest{background-color:rgba(174,45,39,1);}
+.touch #tbsose li .rss, #tbsose li:hover .rss{background-color:rgba(255,102,0,1);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
